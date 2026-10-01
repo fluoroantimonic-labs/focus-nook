@@ -923,7 +923,7 @@
 
     const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-    let S = Object.assign({deep:25,brk:5,quick:15,auto:true,bg:1,chime:true,nd:false},ld('fn_s',{}));
+    let S = Object.assign({deep:25,brk:5,quick:15,auto:true,bg:5,chime:true,nd:false},ld('fn_s',{}));
     let T = ld('fn_t', []);
     let ST = ld('fn_st', {});
     let fid = null;
